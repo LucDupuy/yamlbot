@@ -1,7 +1,8 @@
 import discord
 import re
+import sys
 
-TOKEN = 'MTAyOTU3NjMxMzc3NTg2OTk1Mg.G9-lOr.ee2Zfq0q-P_KRbsCrzi_VZqvToHyhGrWAlz-Kg'
+TOKEN = sys.argv[1]
 # key=word value=boolean should be treated as standalone
 ILLEGAL_WORDS_REF = {
     'yaml': False,
